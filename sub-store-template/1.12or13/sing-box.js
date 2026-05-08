@@ -34,9 +34,7 @@ config.outbounds.map(i => {
   if (['us-auto'].includes(i.tag)) {
     i.outbounds.push(...getTags(proxies, /^(?!.*(?:网站|网址|获取|订阅|流量|到期|余量|续费|过期|重置)).*(🇺🇸|US|us|美国|美|凤凰城|United States)/i))
   }
-  if (['noCN-auto'].includes(i.tag)) {
-    i.outbounds.push(...getTags(proxies, /^(?!.*(?:网站|网址|获取|订阅|流量|到期|余量|续费|过期|重置|港|hk|hongkong|Hong Kong|🇭🇰|台|🇹🇼|TW|Taiwan))/i))
-}})
+})
 
 config.outbounds.forEach(outbound => {
   if (Array.isArray(outbound.outbounds) && outbound.outbounds.length === 0) {
