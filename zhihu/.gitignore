@@ -1,9 +1,0 @@
-zhihu_response/
-docs/
-original_zheye/
-*.js
-*plugin
-*.json
-!zheye.mini.js
-!zheye.lnplugin
-!boxjs.json
