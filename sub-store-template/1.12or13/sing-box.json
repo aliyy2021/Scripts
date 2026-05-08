@@ -142,13 +142,12 @@
       "type": "selector",
       "outbounds": [
         "direct",
-        "hk-auto",
-        "tw-auto",
-        "jp-auto",
-        "sg-auto",
-        "us-auto",
-        "all",
-        "noCN-auto"
+        "🇰🇷 韩国",
+        "🇦🇪 阿联酋",
+        "🇯🇵 日本",
+        "🇸🇬 新加坡",
+        "🇺🇸 美国",
+        "all"
       ],
       "default": "hk-auto"
     },
@@ -158,13 +157,12 @@
       "outbounds": [
         "proxy",
         "direct",
-        "hk-auto",
-        "tw-auto",
-        "jp-auto",
-        "sg-auto",
-        "us-auto",
-        "all",
-        "noCN-auto"
+        "🇰🇷 韩国",
+        "🇦🇪 阿联酋",
+        "🇯🇵 日本",
+        "🇸🇬 新加坡",
+        "🇺🇸 美国",
+        "all"
       ]
     },
     {
@@ -173,11 +171,11 @@
       "outbounds": [
         "proxy",
         "direct",
-        "hk-auto",
-        "tw-auto",
-        "jp-auto",
-        "sg-auto",
-        "us-auto",
+        "🇰🇷 韩国",
+        "🇦🇪 阿联酋",
+        "🇯🇵 日本",
+        "🇸🇬 新加坡",
+        "🇺🇸 美国",
         "all"
       ],
       "default": "direct"
@@ -188,11 +186,11 @@
       "outbounds": [
         "proxy",
         "direct",
-        "hk-auto",
-        "tw-auto",
-        "jp-auto",
-        "sg-auto",
-        "us-auto",
+        "🇰🇷 韩国",
+        "🇦🇪 阿联酋",
+        "🇯🇵 日本",
+        "🇸🇬 新加坡",
+        "🇺🇸 美国",
         "all"
       ]
     },
@@ -202,11 +200,11 @@
       "outbounds": [
         "proxy",
         "direct",
-        "hk-auto",
-        "tw-auto",
-        "jp-auto",
-        "sg-auto",
-        "us-auto",
+        "🇰🇷 韩国",
+        "🇦🇪 阿联酋",
+        "🇯🇵 日本",
+        "🇸🇬 新加坡",
+        "🇺🇸 美国",
         "all"
       ],
       "default": "direct"
@@ -217,11 +215,11 @@
       "outbounds": [
         "proxy",
         "direct",
-        "hk-auto",
-        "tw-auto",
-        "jp-auto",
-        "sg-auto",
-        "us-auto",
+        "🇰🇷 韩国",
+        "🇦🇪 阿联酋",
+        "🇯🇵 日本",
+        "🇸🇬 新加坡",
+        "🇺🇸 美国",
         "all"
       ],
       "default": "direct"
@@ -232,11 +230,11 @@
       "outbounds": [
         "proxy",
         "direct",
-        "hk-auto",
-        "tw-auto",
-        "jp-auto",
-        "sg-auto",
-        "us-auto",
+        "🇰🇷 韩国",
+        "🇦🇪 阿联酋",
+        "🇯🇵 日本",
+        "🇸🇬 新加坡",
+        "🇺🇸 美国",
         "all"
       ]
     },
@@ -246,11 +244,11 @@
       "outbounds": [
         "proxy",
         "direct",
-        "hk-auto",
-        "tw-auto",
-        "jp-auto",
-        "sg-auto",
-        "us-auto",
+        "🇰🇷 韩国",
+        "🇦🇪 阿联酋",
+        "🇯🇵 日本",
+        "🇸🇬 新加坡",
+        "🇺🇸 美国",
         "all"
       ]
     },
@@ -260,15 +258,14 @@
       "outbounds": [
         "proxy",
         "direct",
-        "hk-auto",
-        "tw-auto",
-        "jp-auto",
-        "sg-auto",
-        "us-auto",
-        "all",
-        "noCN-auto"
+        "🇰🇷 韩国",
+        "🇦🇪 阿联酋",
+        "🇯🇵 日本",
+        "🇸🇬 新加坡",
+        "🇺🇸 美国",
+        "all"
       ],
-      "default": "noCN-auto"
+      "default": "🇺🇸 美国"
     },
     {
       "tag": "cn",
@@ -276,11 +273,11 @@
       "outbounds": [
         "proxy",
         "direct",
-        "hk-auto",
-        "tw-auto",
-        "jp-auto",
-        "sg-auto",
-        "us-auto",
+        "🇰🇷 韩国",
+        "🇦🇪 阿联酋",
+        "🇯🇵 日本",
+        "🇸🇬 新加坡",
+        "🇺🇸 美国",
         "all"
       ],
       "default": "direct"
