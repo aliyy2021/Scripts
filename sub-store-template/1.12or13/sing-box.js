@@ -19,20 +19,20 @@ config.outbounds.map(i => {
   if (['all'].includes(i.tag)) {
     i.outbounds.push(...getTags(proxies))
   }
-  if (['hk-auto'].includes(i.tag)) {
-    i.outbounds.push(...getTags(proxies, /^(?!.*(?:网站|网址|获取|订阅|流量|到期|余量|续费|过期|重置)).*(港|hk|hong.*kong|🇭🇰)/i))
+  if (['kr-auto'].includes(i.tag)) {
+    i.outbounds.push(...getTags(proxies, /^(?!.*(?:网站|网址|获取|订阅|流量|到期|余量|续费|过期|重置)).*(🇰🇷|KR|kr|韩国|首尔|Korea)/i))
   }
-  if (['tw-auto'].includes(i.tag)) {
-    i.outbounds.push(...getTags(proxies, /^(?!.*(?:网站|网址|获取|订阅|流量|到期|余量|续费|过期|重置)).*(台|tw|tai.*wan|🇹🇼)/i))
+  if (['ae-auto'].includes(i.tag)) {
+    i.outbounds.push(...getTags(proxies, /^(?!.*(?:网站|网址|获取|订阅|流量|到期|余量|续费|过期|重置)).*(🇦🇪|AE|ae|阿联酋|阿拉伯|迪拜)/i))
   }
   if (['jp-auto'].includes(i.tag)) {
-    i.outbounds.push(...getTags(proxies, /^(?!.*(?:网站|网址|获取|订阅|流量|到期|余量|续费|过期|重置)).*(日本|jp|japan|🇯🇵)/i))
+    i.outbounds.push(...getTags(proxies, /^(?!.*(?:网站|网址|获取|订阅|流量|到期|余量|续费|过期|重置)).*(🇯🇵|JP|jp|日本|日|东京|Japan)/i))
   }
   if (['sg-auto'].includes(i.tag)) {
-    i.outbounds.push(...getTags(proxies, /^(?!.*(?:网站|网址|获取|订阅|流量|到期|余量|续费|过期|重置)).*(新|sg|singapore|🇸🇬)/i))
+    i.outbounds.push(...getTags(proxies, /^(?!.*(?:网站|网址|获取|订阅|流量|到期|余量|续费|过期|重置)).*(🇸🇬|SG|sg|新加坡|坡|狮城|Singapore)/i))
   }
   if (['us-auto'].includes(i.tag)) {
-    i.outbounds.push(...getTags(proxies, /^(?!.*(?:网站|网址|获取|订阅|流量|到期|余量|续费|过期|重置)).*(美|us|united.*states|🇺🇸)/i))
+    i.outbounds.push(...getTags(proxies, /^(?!.*(?:网站|网址|获取|订阅|流量|到期|余量|续费|过期|重置)).*(🇺🇸|US|us|美国|美|凤凰城|United States)/i))
   }
   if (['noCN-auto'].includes(i.tag)) {
     i.outbounds.push(...getTags(proxies, /^(?!.*(?:网站|网址|获取|订阅|流量|到期|余量|续费|过期|重置|港|hk|hongkong|Hong Kong|🇭🇰|台|🇹🇼|TW|Taiwan))/i))
